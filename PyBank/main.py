@@ -7,8 +7,8 @@ csvpath = os.path.join('budget_data.csv')
 
 #Variables
 total_months = 0
-total_revenue =0
-changes =[]
+total_revenue = 0
+changes = []
 date_count = []
 greatest_inc = 0
 greatest_inc_month = 0
