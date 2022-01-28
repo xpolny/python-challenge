@@ -61,3 +61,12 @@ with open(csvpath, newline = '') as csvfile:
     print(average_change)
     print(greatest_inc_month, max(changes))
     print(greatest_dec_month, min(changes))
+    
+    PyBank.write("Financial Analysis") 
+    PyBank.write('\n' +"Total Months" + str(total_months)) 
+    PyBank.write('\n' +"Total Amount" + str(total_revenue)) 
+    PyBank.write('\n' +"Average" + str(average_change)) 
+    PyBank.write('\n' +greatest_inc_month) 
+    PyBank.write('\n' +str(high))
+    PyBank.write('\n' +greatest_dec_month) 
+    PyBank.write('\n' +str(low))     
